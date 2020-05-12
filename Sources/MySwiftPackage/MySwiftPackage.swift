@@ -1,4 +1,4 @@
-struct MySwiftPackage {
+public struct MySwiftPackage {
     var text = "Hello, World!"
     
     func printHelloWorld() {
@@ -6,9 +6,9 @@ struct MySwiftPackage {
     }
 }
 
-class MySwiftPackage2 {
+public class MySwiftPackage2 {
     
-    func printHelloWorld() {
+    public func printHelloWorld() {
         print("Hello World!")
     }
 }
